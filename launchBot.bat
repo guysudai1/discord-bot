@@ -1,0 +1,2 @@
+C:\Windows\System32\cmd.exe /k "C:\Program Files\nodejs\nodevars.bat"
+cd C:\Users\GUY\Desktop\discord bot\node bot.js
