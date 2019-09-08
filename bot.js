@@ -2,19 +2,18 @@ const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest; // XMLHttpReque
 const fs = require('fs');
 discord = require("discord.js"); // declaring discord usage
 const dClient = new discord.Client({forceFetchUsers: true});  // making a new discord client
-const leagueHook = new discord.WebhookClient("343028907391320077" , "AQ9aIhR48EHVC01wMms9odF1XSzKQ7OLDOEnP-eyO0GwAPZo4DftceHuMCMIbPcvT8fk"); // making the league of legends bot server hook
+const leagueHook = new discord.WebhookClient("hidden" , "hidden"); // making the league of legends bot server hook
 const shamia = new discord.Client();
 const Toby = new discord.Client();
 const Alexis = new discord.Client();
 var date = new Date(); // new date object
 var commands = { // commands that spout out text
 	ayy : "el em ayo",
-	gay : "use to say someone is gay use !gay",
-	"shamia" : "a masterpiece use !shamia",
+	gay : "use to say someone is gay use !gay", 
 	"hangman" : "play !hangman",
 	"leaderboard" : "get !leaderboard",
 	"fuck you" : "use !fuck you",
-	"shamiaGay" : "shamia is gay, use !shamiagay"
+	"shamia" : "shamia is great, use !shamia"
 }
 var months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]; // list of months for a readable human date in the console logs
 var inGame = false;
